@@ -1,0 +1,52 @@
+@charset "UTF-8";
+body {
+  background-color: F0FDF4;
+}
+
+nav {
+  width: 2000px;
+  height: 60px;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 400px;
+}
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  gap: 80px;
+  /* reduz o espaçamento entre os itens*/
+  width: 50px;
+  /* menor que o padrão, reduz o espaçamento */
+  height: 2px;
+  padding: auto;
+  font-family: 'Poppins', sans-serif;
+  color: #4B5563;
+}
+
+#logo {
+  width: 245px;
+  height: 43px;
+}
+
+.linha {
+  height: 2px;
+  background-color: #B4AEAE;
+}
+
+button {
+  background-color: #21C05C;
+  color: #FFFFFF;
+  border-radius: 6px;
+  width: 189px;
+  height: 60px;
+  border: #21C05C;
+  font-family: 'Poppins', sans-serif;
+}
+/*# sourceMappingURL=style.css.map */
