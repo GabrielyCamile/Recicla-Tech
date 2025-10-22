@@ -1,24 +1,20 @@
-$cor-de-fundo:F0FDF4;
-$cor-do-titulo:1F2937;
 
-nav {
-    width: 2000px;
-    height: 60px; 
-     
-       
-}
+
+
 nav{
     display: flex;
     gap:400px ;
+    width: 2000px;
+    height: 60px; 
     
 }
 
- ul{   
+ul{   
     display: flex;
     list-style: none;
-    gap: 80px; /* reduz o espaçamento entre os itens*/ 
-    width: 50px;  /* menor que o padrão, reduz o espaçamento */
-    height: 2px;
+    gap: 180px; /* reduz o espaçamento entre os itens*/ 
+    width: 200px;  /* menor que o padrão, reduz o espaçamento */
+    height: 5px;
     padding: auto;
     font-family: 'Poppins', sans-serif;
     color: #4B5563;
@@ -54,13 +50,11 @@ nav{
 
 .titulo-sobretitulo {
   display: flex;                  
-  flex-direction: row-reverse;    /* força a imagem à direita */
   align-items: flex-start;        
   gap: 20px;                      
   padding: 20px;
+  
 }
-
-
 
 .textos {
   width: 678px;
@@ -102,6 +96,7 @@ nav{
     height: 60px;
     border: #21C05C;
     font-family: 'Poppins', sans-serif;
+    
 }
 
 #quero-adquirir{
@@ -112,7 +107,68 @@ nav{
     font-family: 'Poppins', sans-serif;
     color: #2563EB;
     border-color:  #2563EB;
+    gap: 200px;
 }
+
+#Reciclado{
+    max-width: 418px;
+    max-height: 597px;
+    height: auto;
+    width: auto;
+    text-align: center;
+
+
+}
+
+.dados{
+    height: 150px;               
+    background-color: #F3F5F8
+  
+}
+
+#dadosimg{
+    align-items: center;
+
+}
+.explicação{
+    text-align: justify;
+    padding: 40px;
+}
+
+h2{
+    font-family: Poppins;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+h3{
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 25px;
+    line-height: 150%;
+    letter-spacing: 0%;
+
+
+}
+
+.card1{
+    width: 491px;
+    height: 481px;
+    background-color: #F3F5F8
+
+}
+.card2{
+    width: 491px;
+    height: 481px;
+    background-color: #F3F5F8
+
+}
+
+
 
 
 
