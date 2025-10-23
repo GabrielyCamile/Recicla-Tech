@@ -13,7 +13,7 @@ ul{
     display: flex;
     list-style: none;
     gap: 180px; /* reduz o espaçamento entre os itens*/ 
-    width: 200px;  /* menor que o padrão, reduz o espaçamento */
+    width: 180px;  /* menor que o padrão, reduz o espaçamento */
     height: 5px;
     padding: auto;
     font-family: 'Poppins', sans-serif;
@@ -122,12 +122,13 @@ ul{
 
 .dados{
     height: 150px;               
-    background-color: #F3F5F8
+    background-color: #F3F5F8;
+    text-align: center;
   
 }
 
 #dadosimg{
-    align-items: center;
+    display: inline-block;
 
 }
 .explicação{
@@ -154,19 +155,402 @@ h3{
 
 
 }
+.cards{
+    display: flex; 
+    gap: 20px;
+    justify-content: center;
+    
+    
+}
 
-.card1{
+
+.card1 {
+    background-color:#F3F5F8 ;
+    box-shadow: rgba(99, 99, 99, 0.2) ;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: justify;
     width: 491px;
     height: 481px;
-    background-color: #F3F5F8
-
+    align-items: center;    
+    gap: 10px;
+    
+    
 }
-.card2{
+.card1 h3{
+    color: #16A34A;
+    font-family: "Inter", sans-serif ;
+     
+    
+}
+.card1 p{
+    font-family: "Poppins", sans-serif ;
+}
+.card2 {
+    background-color:#F3F5F8 ;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: justify;
     width: 491px;
     height: 481px;
-    background-color: #F3F5F8
+    
+
+    
+}
+
+.card2 h3{
+    color: #2563EB;
+    font-family: "Inter", sans-serif ;
+    
+}
+
+.card2 p{
+    font-family: "Poppins", sans-serif ;
+    
+}
+
+.tipos-de-produtos {
+    background-color:#F3F5F8 ;
+    padding: 20px;
+    align-items: center;
+    width: 1450px;
+    height: 774px;
+    
+}
+.tipos-de-produtos h2{
+    font-family: "Poppins", sans-serif;
+}
+.tipos-de-produtos h3{
+    font-family: "inter", sans-serif;
+}
+
+.cards-produtos{
+    display: flex; 
+    gap: 20px;
+    justify-content: center;
+    
+}
+.card-fones{
+    background-color: #FFFFFF;
+    width: 295px;
+    height: 436px;
+    border-radius: 8px;
+    border: 3px solid #16A34A
+}
+.card-notebooks{
+    background-color: #FFFFFF;
+    width: 295px;
+    height: 436px;
+    border-radius: 8px;
+    border: 3px solid #16A34A
+}
+.card-smartphones{
+    background-color: #FFFFFF;
+    width: 295px;
+    height: 436px;
+    border-radius: 8px;
+    border: 3px solid #16A34A
+}
+.card-fones h4{
+    font-family: "inter", sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #09090B;
 
 }
+.card-notebooks h4{
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+.card-smartphones h4{
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+.card-fones p{
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #4B5563;
+
+}
+.card-notebooks p{
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #4B5563;
+
+}
+.card-smartphones p{
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #4B5563;
+
+}
+
+.cards-produtos button{
+    width: 150;
+    height: 37;
+    top: 2407px;
+    left: 165.56px;
+    opacity: 1;
+    border-radius: 6px;
+    border-width: 1px;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    color: #FFFFFF;
+    background-color:#16A34A ;
+    border: #16A34A;
+    text-align: center;
+    
+
+}
+.cards-avaliação{
+    display: flex; 
+    gap: 80px;
+    justify-content: center;
+    background-color:#FFFFFF ;
+    
+}
+.avaliações h1{
+    text-align: center;
+    font-family: Poppins;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #1F2937;
+
+
+}
+.avaliações h3{
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 25px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #4B5563;
+
+}
+.avaliações .card-joao {
+    background-color:#FFFFFF ;
+    box-shadow: rgba(99, 99, 99, 0.2) ;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: justify;
+    width: 338px;
+    height: 300px;
+    align-items: center;    
+    gap: 10px;
+    border: 3px solid #9CA3AF
+
+    
+}
+.avaliações .card-maria {
+    background-color:#FFFFFF ;
+    box-shadow: rgba(99, 99, 99, 0.2) ;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: justify;
+    width: 338px;
+    height: 300px;
+    align-items: center;    
+    gap: 10px;
+    border: 3px solid #9CA3AF
+
+    
+}
+.avaliações .card-ana {
+    background-color:#FFFFFF ;
+    box-shadow: rgba(99, 99, 99, 0.2) ;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: justify;
+    width: 338px;
+    height: 300px;
+    align-items: center;    
+    gap: 10px;
+    border: 3px solid #9CA3AF
+    
+}
+.card-joao p{
+    font-family: 'Poppins', sans-serif;
+}
+.card-maria p{
+    font-family: 'Poppins', sans-serif;
+}
+.card-ana p{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.card-joao .nome{
+    font-family: 'inter', sans-serif;
+}
+.card-maria .nome{
+    font-family: 'inter', sans-serif;
+}
+.card-ana .nome{
+    font-family: 'inter', sans-serif;   
+}
+
+
+.card-joao .tipos-de-usuarios{
+    font-family: 'inter', sans-serif;
+    color:#6B7280 ;
+}
+.card-maria .tipos-de-usuarios{
+    font-family: 'inter', sans-serif;
+    color:#6B7280 ;
+}
+.card-ana .tipos-de-usuarios{
+    font-family: 'inter', sans-serif;
+    color:#6B7280 ;
+}
+
+.banner {
+    background-color:#F3F5F8 ;
+    padding: 20px;
+    align-items: center;
+    width: 1450px;
+    height: 400px;
+    
+}
+.banner h1{
+    font-family: Poppins;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 40px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+.banner h3{
+    font-family: Inter;
+    
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 25px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+.banner .comecar-agora{
+    background-color: #16A34A;
+    width: 189px;
+    height: 44px;
+    top: 3471px;
+    left: 417.56px;
+    opacity: 1;
+    border-radius: 6px;
+    border-width: 1px;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    gap: 10px;
+    border: #16A34A;
+    color: #FFFFFF;
+
+}
+
+.banner .saber-mais{
+    width: 157px;
+    height: 44px;
+    top: 3471px;
+    left: 623.56px;
+    background-color: #FFFFFF;
+    color: #16A34A;
+    border-color: #16A34A;
+    opacity: 1;
+    border-radius: 6px;
+    border-width: 1px;
+    padding-top: 10px;
+    padding-right: 34px;
+    padding-bottom: 10px;
+    padding-left: 34px;
+    gap: 10px;
+    
+
+}
+.banner .botoes-informativo{
+    text-align: center;
+    
+}
+footer{
+    background-color: #1F2937;
+    width: 1500px;
+    height: 345px;
+    top: 3603px;
+    left: -1px;
+    opacity: 1;
+
+
+}
+.footer{
+    display: flex;
+    gap: 100px;
+}
+footer #logofooter{
+    width: 150px;
+    height: 28px;
+    top: 3642px;
+    left: 22.44px;
+    opacity: 1;
+}
+footer p{
+    color: #9CA3AF;
+    font-family: Poppins;
+    
+}
+footer .titulo{
+    color: #FFFFFF;
+    font-family: Poppins;
+}
+.linha {
+    height: 1px;               
+  background-color: #B4AEAE
+}
+.direitos-footer{
+    text-align: center;
+}
+
 
 
 
