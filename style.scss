@@ -1,30 +1,26 @@
 
-
-
 nav{
     display: flex;
-    gap:400px ;
-    width: 2000px;
+    gap:420px ;
+    width: 1182px;
     height: 60px; 
     
 }
 
-ul{   
-    display: flex;
-    list-style: none;
-    gap: 180px; /* reduz o espaçamento entre os itens*/ 
-    width: 180px;  /* menor que o padrão, reduz o espaçamento */
+.links-nav{ 
+    display: flex;  
+    gap: 100px; /* reduz o espaçamento entre os itens*/ 
+    // width: 100px;  /*   espaçamento entre paragrafo */
     height: 5px;
-    padding: auto;
     font-family: 'Poppins', sans-serif;
     color: #4B5563;
-    
-         
+        
 }
 
 #logo{
     width:245px;
     height: 43px;
+   
     
     
     
@@ -40,7 +36,7 @@ ul{
     background-color:#21C05C ;
     color: #FFFFFF;
     border-radius: 6px;
-    width: 189px;
+    width: 180px;
     height: 60px;
     border: #21C05C;
     font-family: 'Poppins', sans-serif;
@@ -49,9 +45,8 @@ ul{
 }
 
 .titulo-sobretitulo {
-  display: flex;                  
-  align-items: flex-start;        
-  gap: 20px;                      
+  display: flex;
+  gap: 200px;                      
   padding: 20px;
   
 }
@@ -59,7 +54,7 @@ ul{
 .textos {
   width: 678px;
   height: 227px;
-  text-align: start;        
+        
 }
 
 .textos h1 {
@@ -96,6 +91,8 @@ ul{
     height: 60px;
     border: #21C05C;
     font-family: 'Poppins', sans-serif;
+    margin-right: 50px;
+    
     
 }
 
@@ -107,7 +104,7 @@ ul{
     font-family: 'Poppins', sans-serif;
     color: #2563EB;
     border-color:  #2563EB;
-    gap: 200px;
+    
 }
 
 #Reciclado{
@@ -121,6 +118,7 @@ ul{
 }
 
 .dados{
+    width: 1,182px;
     height: 150px;               
     background-color: #F3F5F8;
     text-align: center;
@@ -129,6 +127,7 @@ ul{
 
 #dadosimg{
     display: inline-block;
+    
 
 }
 .explicação{
@@ -183,8 +182,17 @@ h3{
      
     
 }
+.icone{
+    vertical-align: middle;
+    margin-right: 10px; 
+
+}
 .card1 p{
     font-family: "Poppins", sans-serif ;
+    
+}
+.subtitulo{
+    padding-left: 38px;
 }
 .card2 {
     background-color:#F3F5F8 ;
@@ -213,7 +221,7 @@ h3{
     background-color:#F3F5F8 ;
     padding: 20px;
     align-items: center;
-    width: 1450px;
+    width: 1,182px;
     height: 774px;
     
 }
@@ -235,21 +243,21 @@ h3{
     width: 295px;
     height: 436px;
     border-radius: 8px;
-    border: 3px solid #16A34A
+    border: 2px solid #16A34A
 }
 .card-notebooks{
     background-color: #FFFFFF;
     width: 295px;
     height: 436px;
     border-radius: 8px;
-    border: 3px solid #16A34A
+    border: 2px solid #16A34A
 }
 .card-smartphones{
     background-color: #FFFFFF;
     width: 295px;
     height: 436px;
     border-radius: 8px;
-    border: 3px solid #16A34A
+    border: 2px solid #16A34A
 }
 .card-fones h4{
     font-family: "inter", sans-serif;
@@ -316,23 +324,17 @@ h3{
 
 }
 
-.cards-produtos button{
-    width: 150;
-    height: 37;
-    top: 2407px;
-    left: 165.56px;
+.cards-produtos .btn-dispositivos{
+    width: 150px;
+    height: 37px;
     opacity: 1;
     border-radius: 6px;
-    border-width: 1px;
-    padding-top: 10px;
-    padding-right: 30px;
-    padding-bottom: 10px;
-    padding-left: 30px;
     color: #FFFFFF;
     background-color:#16A34A ;
     border: #16A34A;
-    text-align: center;
-    
+    margin: 20px auto 0 auto;   
+    display: block;     
+    padding: 10px 30px;
 
 }
 .cards-avaliação{
@@ -419,6 +421,7 @@ h3{
 
 .card-joao .nome{
     font-family: 'inter', sans-serif;
+    
 }
 .card-maria .nome{
     font-family: 'inter', sans-serif;
@@ -431,22 +434,26 @@ h3{
 .card-joao .tipos-de-usuarios{
     font-family: 'inter', sans-serif;
     color:#6B7280 ;
+    padding-left: 50px;
+    
 }
 .card-maria .tipos-de-usuarios{
     font-family: 'inter', sans-serif;
     color:#6B7280 ;
+    padding-left: 50px;
 }
 .card-ana .tipos-de-usuarios{
     font-family: 'inter', sans-serif;
     color:#6B7280 ;
+    padding-left: 50px;
 }
 
 .banner {
     background-color:#F3F5F8 ;
     padding: 20px;
     align-items: center;
-    width: 1450px;
-    height: 400px;
+    width: 1,182px;
+    height: 405px;
     
 }
 .banner h1{
@@ -471,12 +478,15 @@ h3{
     text-align: center;
 
 }
+.banner .botoes-informativo{
+    text-align: center;
+    margin-right: 10px;
+    
+}
 .banner .comecar-agora{
     background-color: #16A34A;
     width: 189px;
     height: 44px;
-    top: 3471px;
-    left: 417.56px;
     opacity: 1;
     border-radius: 6px;
     border-width: 1px;
@@ -484,17 +494,15 @@ h3{
     padding-right: 30px;
     padding-bottom: 10px;
     padding-left: 30px;
-    gap: 10px;
     border: #16A34A;
     color: #FFFFFF;
+    margin-right: 10px;
 
 }
 
 .banner .saber-mais{
     width: 157px;
     height: 44px;
-    top: 3471px;
-    left: 623.56px;
     background-color: #FFFFFF;
     color: #16A34A;
     border-color: #16A34A;
@@ -505,17 +513,14 @@ h3{
     padding-right: 34px;
     padding-bottom: 10px;
     padding-left: 34px;
-    gap: 10px;
+    
     
 
 }
-.banner .botoes-informativo{
-    text-align: center;
-    
-}
+
 footer{
     background-color: #1F2937;
-    width: 1500px;
+    width: 1,185px;
     height: 345px;
     top: 3603px;
     left: -1px;
